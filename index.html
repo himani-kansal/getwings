@@ -1,0 +1,1527 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Getwings</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="krasakart,posts"/>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1);
+	</script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/form-elements.css">
+<link rel="stylesheet" href="css/style3.css">
+
+
+<script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+<script>
+		$(document).ready(function () {
+		    size_li = $("#myList li").size();
+		    x=3;
+		    $('#myList li:lt('+x+')').show();
+		    $('#loadMore').click(function () {
+		        x= (x+1 <= size_li) ? x+1 : size_li;
+		        $('#myList li:lt('+x+')').show();
+		    });
+		    $('#showLess').click(function () {
+		        x=(x-1<0) ? 1 : x-1;
+		        $('#myList li').not(':lt('+x+')').hide();
+		    });
+		});
+	</script>
+	
+</head>
+<body>
+<!-- header -->
+<div class="banner">
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/getwings.png" class="img-responsive" alt="" /></a>
+			</div>
+			<div class="header-right">
+				<ul>
+					<li><a href="#"><i class="fb"> </i></a></li>
+					<li><a href="#"><i class="twt"> </i></a></li>
+				<li>
+				<div class="search2">
+					<form>
+						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">
+						<input type="submit" value="">
+					</form>
+				</div></li>
+					<div class="clearfix"></div>
+				</ul>
+					
+			</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="head-nav">
+					<span class="menu"> </span>
+						<ul class="cl-effe	ct-15">
+						<li class="active"><a href="index.html">HOME</a></li>
+							<li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
+							<li><a href="#" class="link launch-modal" data-modal-id="modal-registerzz">Add your article</a></li>
+								<div class="clearfix"> </div>
+						</ul>
+				</div>
+
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 					 
+	</div> 
+</div>
+<!-- header -->
+<!-- content -->
+<div class="content">
+	<div class="container">
+	 <div class="load_more">	
+			     <ul id="myList">	
+			        <!-- These are our grid blocks -->
+			        <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Hodge Beach</a> | Tuesday, July 7, 2015 9:23 AM</p>
+										<img src="images/img1.jpg" class="img-responsive" alt="">
+										<p>Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register1">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Talley Murphy</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<img src="images/img10.jpg" class="img-responsive" alt="">
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register2">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Farrell Mayer</a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/2222.jpg" class="img-responsive" alt="">
+										<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilis</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register3">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="posts">
+										<h4>Recent posts</h4>
+										<h6><a href="#" class="launch-modal" data-modal-id="modal-register1"> Hodge Beach</a></h6>
+										<h6><a href="#" class="launch-modal" data-modal-id="modal-register2">Talley Murphy </a></h6>
+										<h6><a href="#" class="launch-modal" data-modal-id="modal-register3"> Farrell Mayer</a></h6>
+										<h6><a href="#" class="launch-modal" data-modal-id="modal-register4"> Arlene Morse </a></h6>
+									</div>
+									<div class="comments">
+										<h4>Recent Comments</h4>
+										<h6><a href="#">Amada Doe <span>on</span> Hello World!</a></h6>
+										<h6><a href="#">Peter Doe <span>on</span> Photography</a></h6>
+										<h6><a href="#">Steve Roberts <span>on</span> HTML5/CSS3</a></h6>
+										<h6><a href="#">Doe Peter <span>on</span> Photography</a></h6>
+									</div>
+									<div class="archievs">
+										<h4>Archives</h4>
+										<h6><a href="#">April 2016</a></h6>
+										<h6><a href="#">February 2016</a></h6>
+										<h6><a href="#">November 2015</a></h6>
+										<h6><a href="#">August 2015</a></h6>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Arlene Morse</a> | Monday, September 21, 2015 10:08 AM</p>
+										<img src="images/img2.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register4">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Madden Walters</a>  | Monday, May 19, 2014 2:52 PM</p>
+										<img src="images/img15.jpg" class="img-responsive" alt="">
+										<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register5">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="lorem">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Howe Frye</a> | Wednesday, February 3, 2016 4:15 PM</p>
+										<img src="images/img2.jpg" class="img-responsive" alt="">
+										<p>Pellentesque odio nisi, euismod in, pharetra a, ultricies in.</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register6">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+			        <!----//--->
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Katherine Kinney</a>  | Friday, February 19, 2016 3:36 AM</p>
+										<img src="images/img10.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register7">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="vitae">
+				 						<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Gardner Daniels</a> | Saturday, May 10, 2014 9:08 AM</p>
+										<img src="images/img4.jpg" class="img-responsive" alt="">
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register8">Read More</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Tanisha Puckett</a> | Sunday, May 18, 2014 12:32 AM</p>
+										<img src="images/img11.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register9">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+			        <!----//--->
+			          <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Frederick Velazquez</a>  | Sunday, November 9, 2014 7:29 AM</p>
+										<img src="images/img13.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register10">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="vitae">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Valentine Gonzalez</a>  | Sunday, October 25, 2015 5:33 PM</p>
+										<img src="images/img14.jpg" class="img-responsive" alt="">
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register11">Read More</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Luna Vasquez</a> | Thursday, November 13, 2014 5:17 PM</p>
+										<img src="images/img15.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register12">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Noreen Hill</a>  | Sunday, October 25, 2015 6:35 AM</p>
+										<img src="images/img16.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register13">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="vitae">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Eve Norman</a> | Friday, August 15, 2014 2:56 PM</p>
+										<img src="images/img17.jpg" class="img-responsive" alt="">
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet</p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register14">Read More</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Joyce Wilkins</a> | Wednesday, January 21, 2015 3:59 AM</p>
+										<img src="images/img5.jpg" class="img-responsive" alt="">
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="#" class="link launch-modal" data-modal-id="modal-register15">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					<div class="clearfix"></div>
+					 <!----//--->
+			      </ul>
+				  <div id="loadMore">Load more</div>
+	<div id="showLess">Show less</div>
+
+			    </div>
+	</div>
+</div>
+<!-- content -->	
+<!-- footer -->
+<div class="modal fade" id="modal-register1" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span><br>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Hodge Beach</a> | Tuesday, July 7, 2015 9:23 AM</p>
+										<img src="images/img1.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+										Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+	                    
+	                    <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+<div class="modal fade" id="modal-register2" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Talley Murphy</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<a href="details.html"><img src="images/img10.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Amet voluptate velit non qui amet eu incididunt minim proident. Ea aute ipsum mollit cupidatat do culpa elit commodo enim ex nulla. Ex et magna consectetur anim labore consectetur ullamco amet nisi. Qui deserunt commodo reprehenderit ex sunt reprehenderit sit id. Quis commodo qui consectetur nostrud in non duis irure. Nisi est ex culpa eiusmod esse ad quis enim ea. Est nostrud amet voluptate sit occaecat eu ex pariatur.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (908) 501-2071</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> talley.murphy@undefined.biz</p>
+
+
+
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register3" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Farrell Mayer</a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/2222.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Est proident laborum sunt occaecat. Aliqua tempor adipisicing excepteur deserunt sint ad adipisicing dolore nostrud sit occaecat tempor. Ipsum magna id magna laborum deserunt dolor ad proident duis anim.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> farrell.mayer@undefined.me</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+
+ <div class="modal fade" id="modal-register4" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Arlene Morse</a> | Monday, September 21, 2015 10:08 AM </p>
+										<a href="details.html"><img src="images/img2.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Id tempor non ullamco nostrud enim proident amet pariatur duis ex incididunt. Tempor commodo dolore aute occaecat id anim. Ex cillum incididunt pariatur ut qui voluptate. Deserunt nisi ex qui labore nisi pariatur veniam minim. Adipisicing reprehenderit tempor nostrud reprehenderit magna laboris eu nisi cupidatat. Nisi dolor et ex deserunt.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span>arlene.morse@undefined.ca</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register5" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Madden Walters</a> | Monday, May 19, 2014 2:52 PM </p>
+										<a href="details.html"><img src="images/img15.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Et ullamco aliqua excepteur officia ea nulla id aute. Eiusmod officia et voluptate consequat ea irure aliquip enim dolor eiusmod. Consequat quis deserunt irure ex elit ut aliquip est.
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> madden.walters@undefined.io</p>
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+        <div class="modal fade" id="modal-register6" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Howe Frye</a> | Wednesday, February 3, 2016 4:15 PM </p>
+										<a href="details.html"><img src="images/img2.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Magna sint esse sint cillum culpa amet nostrud ea laborum. Labore irure sunt labore eu nostrud adipisicing amet et magna minim labore proident aute. Occaecat mollit voluptate ea esse labore exercitation laboris ullamco aliquip labore aute. Consectetur consequat nulla est do aliqua dolor. Reprehenderit qui in labore ipsum consequat aliqua. Sunt ipsum voluptate magna ullamco anim mollit nulla irure Lorem incididunt.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> howe.frye@undefined.biz</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+    <div class="modal fade" id="modal-register7" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Talley Murphy</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<a href="details.html"><img src="images/img10.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.
+										Phasellus ultrices nulla quis nibh. Quisque a lectus.Donec consectetuer ligula vulputate.
+											Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+        <div class="modal fade" id="modal-register8" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Gardner Daniels</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<a href="details.html"><img src="images/img4.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.
+										Phasellus ultrices nulla quis nibh. Quisque a lectus.Donec consectetuer ligula vulputate.
+											Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register9" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Talley Murphy</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<a href="details.html"><img src="images/img18.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.
+										Phasellus ultrices nulla quis nibh. Quisque a lectus.Donec consectetuer ligula vulputate.
+											Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+        <div class="modal fade" id="modal-register10" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Frederick Velazquez</a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<a href="details.html"><img src="images/img13.jpg" class="img-responsive" alt=""></a>
+										<br />
+										<p>
+											Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.
+										Phasellus ultrices nulla quis nibh. Quisque a lectus.Donec consectetuer ligula vulputate.
+											Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+        <div class="modal fade" id="modal-register11" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Valentine Gonzalez </a> | Tuesday, July 28, 2015 3:57 PM </p>
+										<img src="images/img14.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel ipsum dolor.
+										Phasellus ultrices nulla quis nibh. Quisque a lectus.Donec consectetuer ligula vulputate.
+											Laborum aliquip nisi eiusmod veniam exercitation. In aliqua ea commodo est ipsum aute tempor cillum Lorem reprehenderit nisi proident. Lorem duis labore nisi consequat et sit non veniam cillum pariatur irure magna ad incididunt. Commodo aute velit magna occaecat anim aute ea pariatur ea excepteur sit sit. Ea eu proident eiusmod mollit culpa duis esse fugiat ullamco magna est. Minim velit esse dolor ipsum amet.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> hodge.beach@undefined.com</p>
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register12" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Luna Vasquez</a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/img15.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Est proident laborum sunt occaecat. Aliqua tempor adipisicing excepteur deserunt sint ad adipisicing dolore nostrud sit occaecat tempor. Ipsum magna id magna laborum deserunt dolor ad proident duis anim.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> farrell.mayer@undefined.me</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register13" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#"> Noreen Hill</a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/img16.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Est proident laborum sunt occaecat. Aliqua tempor adipisicing excepteur deserunt sint ad adipisicing dolore nostrud sit occaecat tempor. Ipsum magna id magna laborum deserunt dolor ad proident duis anim.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> farrell.mayer@undefined.me</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register14" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Farrell Mayer</a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/img17.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Est proident laborum sunt occaecat. Aliqua tempor adipisicing excepteur deserunt sint ad adipisicing dolore nostrud sit occaecat tempor. Ipsum magna id magna laborum deserunt dolor ad proident duis anim.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> farrell.mayer@undefined.me</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="modal-register15" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <h3>Hello! This is a test title</h3>
+										<p class="adm">Posted by <a href="#">Joyce Wilkins </a>  | Thursday, May 21, 2015 6:30 PM</p>
+										<img src="images/img18.jpg" class="img-responsive" alt="">
+										<br />
+										<p>
+											Est proident laborum sunt occaecat. Aliqua tempor adipisicing excepteur deserunt sint ad adipisicing dolore nostrud sit occaecat tempor. Ipsum magna id magna laborum deserunt dolor ad proident duis anim.
+
+										 </p>
+										 <hr>
+										 <p><span style="color: #dc8e7f;">Phone No : </span>+1 (829) 472-3657</p>
+										 <p> <span style="color: #dc8e7f;"> Email : </span> farrell.mayer@undefined.me</p>
+
+										 <div class="comments1">
+								<h4>COMMENTS</h4>
+			  				<div class="comments-main">
+									<div class="col-md-2 cmts-main-left">
+										<img src="images/avatar.png" alt="">
+									</div>
+									<div class="col-md-10 cmts-main-right">
+
+										<h5>TOM BROWN</h5>
+										<p>Vivamus congue turpis in augue pellentesque scelerisque. Pellentesque aliquam laoreet sem nec ultrices. Fusce blandit nunc vehicula massa vehicula tincidunt. Nam venenatis cursus urna sed gravida. Ut tincidunt elit ut quam malesuada consequat. Sed semper purus sit amet lorem elementum faucibus.</p>
+										<div class="cmts">
+											<div class="cmnts-left">
+												<p>On April 14, 2014, 18:01</p>
+											</div>
+											<div class="cmnts-right">
+												<a href="#">Reply</a>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+			  				</div>
+
+			<div class="lev">
+			<div class="leave">
+				<h4>Leave a comment</h4>
+				</div>
+				<form id="commentform">
+				    <label for="author">Name</label>
+						<input id="author" name="author" type="text" value="" size="30" aria-required="true">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text" value="" size="30" aria-required="true">
+						<label for="url">Website</label>
+						<input id="url" name="url" type="text" value="" size="30">
+						<label for="comment">Comment</label>
+						<textarea></textarea>
+					 <div class="clearfix"></div>
+			           <input name="submit" type="submit" id="submit" value="Send">
+					<div class="clearfix"></div>
+				   </form>
+				  </div>
+
+
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+
+        <div class="modal fade" id="modal-registerzz" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                        </button>
+                        <h3 class="modal-title" id="modal-register-label1">Article</h3>
+                    </div>
+                    
+                    <div class="modal-body">
+                        
+                        <form role="form" action="" name="myform1" enctype="multipart/form-data"
+                        method="post"  class="registration-form">
+                            <div class="form-group">
+                               
+                                <textarea  name="experience"class="experience form-control" placeholder="Write your article here...." row="20" column="40"
+                                 id="experience"  maxlength="150" style="height:100px;"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="file" name="imageupload"class="imageupload form-control" id="imageupload" style="height:50px; border:none;">
+                            </div>
+                         
+                            <button type="button" class="btn" onclick="submitForm()">Submit</button>
+                        </form>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-6 copy">
+				<div class="top1">
+					<i class="ham"></i>
+				</div>
+				<div class="top2">
+					<h6>Copyrights © 2016 Getwings</h6>
+					<p>All rights reserved</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 copy">
+				<div class="top1">
+					<i class="lik"></i>
+				</div>
+				<div class="top2">
+					<h6>Website </h6>
+					<p><a href="#"> www.getwings.net</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- footer -->
+<script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/scripts.js"></script>
+</body>
+</html>
